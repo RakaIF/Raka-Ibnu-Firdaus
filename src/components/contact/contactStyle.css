@@ -1,0 +1,113 @@
+.section{
+    padding: 3rem 0;
+}
+.section-title{
+    position: relative;
+    font-size: 5.5rem;
+    color: var(--dark-color);
+    margin: var(--mb-4) 0;
+    text-align: center;
+}
+.section-title::after{
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: .18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: var(--first-color);
+}
+
+.section_title{
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 0.5rem;
+}
+
+.contact_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 60px 0;
+  }
+.contact_combined {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+.contact_info{
+    max-width: 400px; 
+}
+.contact_form{ 
+    max-width: 400px; 
+}
+
+.contact_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.contact_subtitle{
+    font-size: var(--normal-font-size);
+    color: var(--first-color);
+}
+.contact_text{
+    display: inline-block;
+    margin-bottom: var(--mb-2);
+}
+.contact_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact_input{
+    width: 100%;
+    padding: .8rem;
+    outline: none;
+    border: white;
+    border-bottom: 2px solid var(--first-color);
+    /* border: 1.5px solid var(--dark-color); */
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    resize: none;
+}
+
+#name:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
+
+#email:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
+
+#pesan:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
+
+.contact_button{
+    display: block;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: .75rem 2.5rem;
+    margin-left: auto;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}
+
+.contact_button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}

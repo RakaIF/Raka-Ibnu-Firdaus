@@ -1,0 +1,31 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.footer {
+    background-color: #1B262C;
+    color: #fff;
+    padding: 20px 50px;
+  }
+  
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_social img{
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .footer_social a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  .footer_copyright p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
